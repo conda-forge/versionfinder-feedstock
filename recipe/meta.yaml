@@ -35,6 +35,7 @@ test:
     - pip
     - pytest
     - requests
+    - git
   source_files:
     - versionfinder/tests
 
