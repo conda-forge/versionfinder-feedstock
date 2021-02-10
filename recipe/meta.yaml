@@ -34,6 +34,7 @@ test:
     - backoff
     - pip
     - pytest
+    - requests
   source_files:
     - versionfinder/tests
 
