@@ -29,8 +29,12 @@ test:
     - versionfinder.tests
   commands:
     - pip check
+    - pytest versionfinder/tests
   requires:
     - pip
+    - pytest
+  source_files:
+    - versionfinder/tests
 
 about:
   home: https://github.com/jantman/versionfinder
